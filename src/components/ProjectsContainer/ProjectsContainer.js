@@ -4,6 +4,7 @@ import fav from '../../imgs/fav.jpg';
 import kitchen from '../../imgs/kitchen.jpg';
 import game from '../../imgs/game.png';
 import todo from '../../imgs/todo.jpg';
+import expenses from '../../imgs/expenses.png';
 const ProjectsContainer = () => {
   return (
     <div class="mx-auto">
@@ -67,6 +68,13 @@ const ProjectsContainer = () => {
             image={todo}
             githubLink="https://github.com/sulaiman211/todo-list"
             liveSite="https://mytodolist212.netlify.app/"
+          />
+          <Projects
+            name="Expenses Tracker"
+            description="expenses tracker app build with React.js and React Hooks"
+            image={expenses}
+            githubLink=""
+            liveSite="https://expensestracker2.netlify.app/"
           />
         </h1>
       </div>
