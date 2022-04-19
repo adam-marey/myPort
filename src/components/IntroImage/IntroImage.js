@@ -13,7 +13,7 @@ const IntroImage = () => {
         <h1 className="tracking-widest text-3xl text-gray-700 font-black pt-5">
           Sulaiman Marey
         </h1>
-        <h4 className="text-1xl text-gray-500 pt-2">
+        <h4 className="text-1xll text-gray-500 pt-2">
           Full Stack Software Engineer based in Phoenix, AZ
         </h4>
       </div>
