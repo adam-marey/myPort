@@ -55,14 +55,6 @@ const Navbar = ({ fixed }) => {
                   <span className="ml-2">Projects</span>
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink
-                  to="/projects"
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
-                >
-                  <span className="ml-2">Resume</span>
-                </NavLink>
-              </li>
             </ul>
           </div>
         </div>
