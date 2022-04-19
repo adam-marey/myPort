@@ -15,7 +15,7 @@ const Navbar = ({ fixed }) => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink
               to="/"
-              className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800"
+              className="button-50 font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800"
               href="/"
             >
               <span onClick="toggle">Home</span>
@@ -50,7 +50,7 @@ const Navbar = ({ fixed }) => {
               <li className="nav-item">
                 <NavLink
                   to="/projects"
-                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
+                  className="button-50 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
                 >
                   <span className="ml-2">Projects</span>
                 </NavLink>
