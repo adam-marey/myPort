@@ -5,6 +5,7 @@ import kitchen from '../../imgs/kitchen.jpg';
 import game from '../../imgs/game.png';
 import todo from '../../imgs/todo.jpg';
 import expenses from '../../imgs/expenses.png';
+import weather from '../../imgs/weatherapp.jpg';
 const ProjectsContainer = () => {
   return (
     <div class="mx-auto">
@@ -75,6 +76,13 @@ const ProjectsContainer = () => {
             image={expenses}
             githubLink=""
             liveSite="https://expensestracker2.netlify.app/"
+          />
+            <Projects
+            name="Weather app"
+            description="Simple weather app built with create-react-app and OpenWeatherMap API"
+            image={weather}
+            githubLink="https://github.com/sulaiman211/react-weather-app"
+            liveSite="https://lovely-weather.netlify.app/"
           />
         </h1>
       </div>
