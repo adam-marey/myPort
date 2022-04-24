@@ -4,9 +4,10 @@ import { SocialIcon } from 'react-social-icons';
 const Contact = () => {
   return (
     <div className="container mx-auto p-10 lg:w-6/12 lg:pt-28 lg:pt-0">
-      <h1 className="tracking-widest text-2xl text-gray-700 font-black pt-5 pb-4 flex justify-between">
+      <h1 className="tracking-widest text-2xl text-gray-700 font-black pt-5">
         Contact Me
       </h1>
+      <br />
       <div className="">
         <span className="pr-2 cursor-pointer" target="_blank">
           <SocialIcon
