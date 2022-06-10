@@ -13,42 +13,41 @@ const Experience = () => {
           <h1 className="tracking-widest text-3xl text-gray-700 font-black pt-5">
             My Work Experience
           </h1>
-          <h4 className="text-1xll text-gray-500 pt-2">
-            I've spent more than 4 years working in the retail industry and
-            education, and I was able to strength my leadership skills as well
-            as technical skills, and based on my academic background, I am
-            seeking a full-time work and hoping to contribute to the success of
-            an organization and expand my skills as a programmer
-          </h4>
+          <div className="text-1xl text-gray-500 pt-2">
+            <p>
+              I've spent more than 4 years working in the retail industry and
+              education, and I was able to strength my leadership skills as well
+              as technical skills, and based on my academic background, I am
+              seeking a full-time work and hoping to contribute to the success
+              of an organization and expand my skills as a programmer
+            </p>
+          </div>
         </div>
       </div>
       <h1 className="tracking-widest text-2xl text-gray-700 font-black pt-5">
         Mentor-Software Development
       </h1>
-
+      <p className="tracking-widest text-0xl text-gray-600 font-black pt-5">
+        Fullstack Academy of code - Jan/2022 - Present
+      </p>
       <p className="text-1xl text-gray-500 pt-4">
-        <p className="text-xl text-gray-600 pt-4">
-          Fullstack Academy of code - Jan/2022 - Present
+        <p>
+          Teach PERN stacks, Agile Methodologies, object-oriented programming
+          concepts to 40+ student software engineers.
         </p>
-        <p className="text-1xl text-gray-500 pt-4">
-          <p>
-            Teach PERN stacks, Agile Methodologies, object-oriented programming
-            concepts to 40+ student software engineers.
-          </p>
-          <p>
-            Provide the students with the resources that they need to complete
-            their projects as well as daily code reviews.
-          </p>
-          <p>
-            Debug and problem-solve student's code while guiding students to the
-            intended solution.{' '}
-          </p>
+        <p>
+          Provide the students with the resources that they need to complete
+          their projects as well as daily code reviews.
+        </p>
+        <p>
+          Debug and problem-solve student's code while guiding students to the
+          intended solution.{' '}
         </p>
       </p>
       <h1 className="tracking-widest text-2xl text-gray-700 font-black pt-5">
         Warehouse Operator
       </h1>
-      <p className="text-xl text-gray-600 pt-4">
+      <p className="tracking-widest text-0xl text-gray-600 font-black pt-5">
         The TJX Companies, Inc. - Jun/2017 - March/2021
       </p>
       <p className="text-1xl text-gray-500 pt-4">

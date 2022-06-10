@@ -28,7 +28,7 @@ function Skills() {
         </div>
       </div>
       <div class="row2-container">
-        <div class="box orange">
+        <div class="box orange ">
           <h1>Competitive Coder</h1>
           <p>a daily problem solver in HackerRank, LeetCode & codeWars</p>
         </div>
