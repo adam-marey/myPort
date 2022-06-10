@@ -28,7 +28,7 @@ const Experience = () => {
 
       <p className="text-1xl text-gray-500 pt-4">
         <p className="text-xl text-gray-600 pt-4">
-          Fullstack Academy of code - April/2022 - Present.
+          Fullstack Academy of code - Jan/2022 - Present
         </p>
         <p className="text-1xl text-gray-500 pt-4">
           <p>
@@ -49,7 +49,7 @@ const Experience = () => {
         Warehouse Operator
       </h1>
       <p className="text-xl text-gray-600 pt-4">
-        The TJX Companies, Inc. - Jun/2017 - March/2021.
+        The TJX Companies, Inc. - Jun/2017 - March/2021
       </p>
       <p className="text-1xl text-gray-500 pt-4">
         <p>
