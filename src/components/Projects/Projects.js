@@ -1,5 +1,4 @@
 import React from 'react';
-
 function Projects(props) {
   return (
     <div className="container mx-auto pb-28 md:pb-10 lg:w-6/12 lg:pt-28">

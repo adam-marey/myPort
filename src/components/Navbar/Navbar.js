@@ -55,6 +55,14 @@ const Navbar = ({ fixed }) => {
                   <span className="ml-2">Skills</span>
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink
+                  to="/Experience"
+                  className="button-50 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
+                >
+                  <span className="ml-2">Experience</span>
+                </NavLink>
+              </li>
             </ul>
           </div>
         </div>
