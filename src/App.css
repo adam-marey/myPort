@@ -167,10 +167,8 @@
   border-radius: 5px;
   box-shadow: 0px 30px 40px -20px var(--grayishBlue);
   padding: 30px;
-  margin: 20px;  
+  margin: 20px;
 }
-
-
 
 .cyan {
   border-top: 3px solid var(--cyan);
@@ -190,45 +188,43 @@
   font-weight: var(--weight3);
 } */
 
-
 @media (min-width: 950px) {
   .row1-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
+
   .row2-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .box-down {
-      position: relative;
-      top: 150px;
+    position: relative;
+    top: 150px;
   }
   .box {
-      width: 20%;
-   
+    width: 20%;
   }
   .header p {
-      width: 30%;
+    width: 30%;
   }
-  
 }
 
-.attribution { 
-  font-size: 11px; text-align: center; 
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 :root {
-  --red: hsl(0, 78%, 62%);
-  --cyan: hsl(180, 62%, 55%);
-  --orange: hsl(34, 97%, 64%);
-  --blue: hsl(212, 86%, 64%);
+  --red: hsl(229, 6%, 66%);
+  --cyan: hsl(229, 6%, 66%);
+  --orange: hsl(229, 6%, 66%);
+  --blue: hsl(229, 6%, 66%);
   --varyDarkBlue: hsl(234, 12%, 34%);
   --grayishBlue: hsl(229, 6%, 66%);
   --veryLightGray: hsl(0, 0%, 98%);
@@ -251,4 +247,3 @@ h1:last-of-type {
       font-size: 1.5rem;
   }
 } */
-

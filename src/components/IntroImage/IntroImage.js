@@ -14,7 +14,7 @@ const IntroImage = () => {
           Sulaiman Marey
         </h1>
         <h4 className="text-1xll text-gray-500 pt-2">
-          Full Stack Software Engineer based in Phoenix, AZ
+          Full Stack Software Engineer based in New York
         </h4>
       </div>
     </div>

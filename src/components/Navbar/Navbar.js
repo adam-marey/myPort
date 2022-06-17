@@ -42,7 +42,7 @@ const Navbar = ({ fixed }) => {
               <li className="nav-item">
                 <NavLink
                   to="/projects"
-                  className="button-50 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
+                  className=" py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
                 >
                   <span className="ml-2">Projects</span>
                 </NavLink>
@@ -50,7 +50,7 @@ const Navbar = ({ fixed }) => {
               <li className="nav-item">
                 <NavLink
                   to="/skills"
-                  className="button-50 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
+                  className=" py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
                 >
                   <span className="ml-2">Skills</span>
                 </NavLink>
@@ -58,7 +58,7 @@ const Navbar = ({ fixed }) => {
               <li className="nav-item">
                 <NavLink
                   to="/Experience"
-                  className="button-50 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
+                  className=" py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-800 hover:opacity-75"
                 >
                   <span className="ml-2">Experience</span>
                 </NavLink>
