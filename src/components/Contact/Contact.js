@@ -16,7 +16,7 @@ const Contact = () => {
       </div>
       {/* <div>
         <br />
-        <Link to="https://calendly.com/adammarey51/speak-with-sul?month=2022-06">
+        <Link herf="https://calendly.com/adammarey51/speak-with-sul?month=2022-06">
           <button className="button-50 py-2 px-5 rounded">
             Click to book a call with me
           </button>
