@@ -7,7 +7,7 @@ const About = () => {
         About Me
       </h1>
       <p className="text-1xl text-gray-500 pt-4">
-        I am a certified Full-Stack Web Developer and current Computer Science
+        I am a Full-Stack Web Developer and current Computer Science
         student at the University of Arizona. If I were to describe myself in
         one word, it would be resourceful. Where there is a will there is a way
         and that is what I always keep in mind when coding. I always try to
