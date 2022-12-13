@@ -33,7 +33,7 @@ const Contact = () => {
         </span>
         <span className="pr-2 cursor-pointer">
           <SocialIcon
-            url="https://github.com/sulaiman211"
+            url="https://github.com/adam-marey"
             network="github"
             target="_blank"
           />

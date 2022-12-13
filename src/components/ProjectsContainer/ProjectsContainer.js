@@ -21,7 +21,7 @@ const ProjectsContainer = () => {
               <span>
                 <a
                   className="cursor-pointer border-b-2 border-indigo-600 px-1"
-                  href="https://github.com/sulaiman211"
+                  href="https://github.com/adam-marey"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -39,7 +39,7 @@ const ProjectsContainer = () => {
         </div>
       </div>
       <div class="container mx-auto">
-        <div class="flex items-center my-2"></div>
+        <div class="flex items-center my-2" />
         <h1 className="font-weight-light">
           <Projects
             name="Neighbor-fave"
@@ -60,14 +60,14 @@ const ProjectsContainer = () => {
             name="Guess a Number"
             description="Guess The Number is a game where it randomly select an integer from 1 to 20, and you have to guess the number by making guesses until you find the number that is chose. Have fun!"
             image={game}
-            githubLink="https://github.com/sulaiman211/Guess-My-Number"
+            githubLink="https://github.com/adam-marey/Guess-My-Number"
             liveSite="https://guess-number-4a2a3a.netlify.app/"
           />
           <Projects
             name="Todo List"
             description="Classic Todo List built with HTML, CSS and JS"
             image={todo}
-            githubLink="https://github.com/sulaiman211/todo-list"
+            githubLink="https://github.com/adam-mareys/todo-list"
             liveSite="https://mytodolist212.netlify.app/"
           />
           <Projects
@@ -77,11 +77,11 @@ const ProjectsContainer = () => {
             githubLink=""
             liveSite="https://expensestracker2.netlify.app/"
           />
-            <Projects
+          <Projects
             name="Weather app"
             description="Simple weather app built with create-react-app and OpenWeatherMap API"
             image={weather}
-            githubLink="https://github.com/sulaiman211/react-weather-app"
+            githubLink="https://github.com/adam-marey/react-weather-app"
             liveSite="https://lovely-weather.netlify.app/"
           />
         </h1>

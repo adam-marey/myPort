@@ -11,7 +11,7 @@ const IntroImage = () => {
           className="w-40 h-auto rounded-full mx-auto border-gray-800 border-4"
         />
         <h1 className="tracking-widest text-3xl text-gray-700 font-black pt-5">
-          Sulaiman Marey
+          Adam Marey
         </h1>
         <h4 className="text-1xll text-gray-500 pt-2">
           Full Stack Software Engineer based in New York
