@@ -66,7 +66,10 @@ const ProjectsContainer = () => {
         <h1 className="font-weight-light">
           <Projects
             name="Neighbor-fave"
-            description="Fullstack application is built for people to help each other in their community, people can ask for help as well as help others, users are able to see their posts and other's posts via geolocations and real-time communication
+            description="NeighborFav, is a community-based platform that aims to facilitate
+              the exchange of favors among members in a given area.The platform
+              allows users to post and view favors, and offers a real-time chat
+              feature to facilitate communication between users. Users are able to see their posts and other's posts via geolocations. 
 						Built with React, Redux, Node, Express, Sequelize, PostgreSQL, socket.io, react-leaflet"
             image={fav}
             githubLink="https://github.com/cs-team-02/neighbor-fave"
