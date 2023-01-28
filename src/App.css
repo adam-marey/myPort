@@ -247,3 +247,25 @@ h1:last-of-type {
       font-size: 1.5rem;
   }
 } */
+
+.paragraphs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.back-botton {
+  justify-content: end;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  background-color: var(--grayishBlue);
+  color: var(--veryLightGray);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: var(--weight2);
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}

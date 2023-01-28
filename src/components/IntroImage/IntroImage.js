@@ -14,7 +14,7 @@ const IntroImage = () => {
           Adam Marey
         </h1>
         <h4 className="text-1xll text-gray-500 pt-2">
-          Full Stack Software Engineer based in New York
+          Full Stack Software Engineer based in Arizona
         </h4>
       </div>
     </div>

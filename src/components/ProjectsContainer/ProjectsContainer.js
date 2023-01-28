@@ -6,7 +6,30 @@ import game from '../../imgs/game.png';
 import todo from '../../imgs/todo.jpg';
 import expenses from '../../imgs/expenses.png';
 import weather from '../../imgs/weatherapp.jpg';
+import ezmanage from '../../imgs/ezmanage.png';
+import portfolio from '../../imgs/portfolio.png';
+import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 const ProjectsContainer = () => {
+  const history = useHistory();
+
+  const handleProjectClick = e => {
+    e.preventDefault();
+    history.push('/neighbor-fave');
+  };
+  const handleWeb = e => {
+    e.preventDefault();
+    history.push('/personal-web');
+  };
+  const handleManage = e => {
+    e.preventDefault();
+    history.push('/ez-manage');
+  };
+  const handleVirtual = e => {
+    e.preventDefault();
+    history.push('/virtual-kitchen');
+  };
+
   return (
     <div class="mx-auto">
       <div class="mx-auto bg-gray-100 lg:pl-40">
@@ -49,6 +72,35 @@ const ProjectsContainer = () => {
             githubLink="https://github.com/cs-team-02/neighbor-fave"
             liveSite="https://neighbor-fave.herokuapp.com/"
           />
+          <div>
+            <button className="button-50" onClick={handleProjectClick}>
+              My Experience
+            </button>
+          </div>
+          <Projects
+            name="Personal Website"
+            description="Personal website built with React and Tailwind CSS"
+            image={portfolio}
+            githubLink="https://github.com/adam-marey/myPort"
+            liveSite="https://www.adammarey.com/"
+          />
+          <div>
+            <button className="button-50" onClick={handleWeb}>
+              My Experience
+            </button>
+          </div>
+          <Projects
+            name="EZ-Manage"
+            description="The project is a management system for keeping track of projects and clients. It is built using React for the frontend, Apollo Client for handling GraphQL requests, and Bootstrap for styling. The backend is built using Express and GraphQL for the database."
+            image={ezmanage}
+            githubLink="https://github.com/adam-marey/EZ-Manage"
+            liveSite="https://github.com/adam-marey/EZ-Manage"
+          />
+          <div>
+            <button className="button-50" onClick={handleManage}>
+              My Experience
+            </button>
+          </div>
           <Projects
             name="Virtual Kitchen"
             description="Fullstack e-commerce application- Built with React, Redux, Node, Express, PostgreSQL, Sequelize"
@@ -56,34 +108,11 @@ const ProjectsContainer = () => {
             githubLink="https://github.com/mudkip-masters/grace-shopper"
             liveSite="https://grace-shopper-mudkip-masters.herokuapp.com/"
           />
-          <Projects
-            name="Guess a Number"
-            description="Guess The Number is a game where it randomly select an integer from 1 to 20, and you have to guess the number by making guesses until you find the number that is chose. Have fun!"
-            image={game}
-            githubLink="https://github.com/adam-marey/Guess-My-Number"
-            liveSite="https://guess-number-4a2a3a.netlify.app/"
-          />
-          <Projects
-            name="Todo List"
-            description="Classic Todo List built with HTML, CSS and JS"
-            image={todo}
-            githubLink="https://github.com/adam-mareys/todo-list"
-            liveSite="https://mytodolist212.netlify.app/"
-          />
-          <Projects
-            name="Expenses Tracker"
-            description="expenses tracker app build with React.js and React Hooks"
-            image={expenses}
-            githubLink=""
-            liveSite="https://expensestracker2.netlify.app/"
-          />
-          <Projects
-            name="Weather app"
-            description="Simple weather app built with create-react-app and OpenWeatherMap API"
-            image={weather}
-            githubLink="https://github.com/adam-marey/react-weather-app"
-            liveSite="https://lovely-weather.netlify.app/"
-          />
+          <div>
+            <button className="button-50" onClick={handleVirtual}>
+              My Experience
+            </button>
+          </div>
         </h1>
       </div>
     </div>
