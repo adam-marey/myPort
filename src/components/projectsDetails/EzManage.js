@@ -13,7 +13,7 @@ const EzManage = () => {
             <h1 className="tracking-widest text-3xl text-gray-700 font-black pt-5 pb-4 flex justify-between">
               EZ-Manage
             </h1>
-            <p className="text-1xl text-gray-500 px-5">comming soon!</p>
+            <p className="text-1xl text-gray-500 px-5">coming soon!</p>
           </div>
         </div>
         <button className="button-50" onClick={handleClick}>
