@@ -4,8 +4,8 @@ import { MenuIcon } from '@heroicons/react/solid';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = ({ fixed }) => {
-  const menu = document.getElementById('menu');
-  const toggle = () => menu.classList.toggle('hidden');
+  // const menu = document.getElementById('menu');
+  // const toggle = () => menu.classList.toggle('hidden');
 
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
@@ -15,7 +15,7 @@ const Navbar = ({ fixed }) => {
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <NavLink
               to="/"
-              className="button-50 font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800"
+              className=" cursor-pointer font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-800"
               href="/"
             >
               <span onClick="toggle">Home</span>

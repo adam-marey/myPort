@@ -1,35 +1,11 @@
 import React from 'react';
 import Projects from '../Projects/Projects';
 import fav from '../../imgs/fav.jpg';
-import kitchen from '../../imgs/kitchen.jpg';
-import game from '../../imgs/game.png';
-import todo from '../../imgs/todo.jpg';
-import expenses from '../../imgs/expenses.png';
-import weather from '../../imgs/weatherapp.jpg';
-import ezmanage from '../../imgs/ezmanage.png';
+import kitchen from '../../imgs/pickle.png';
 import portfolio from '../../imgs/portfolio.png';
-import { Link } from 'react-router-dom';
-import { useHistory } from 'react-router-dom';
+import pairs from '../../imgs/pairs.png';
+
 const ProjectsContainer = () => {
-  const history = useHistory();
-
-  const handleProjectClick = e => {
-    e.preventDefault();
-    history.push('/neighbor-fave');
-  };
-  const handleWeb = e => {
-    e.preventDefault();
-    history.push('/personal-web');
-  };
-  const handleManage = e => {
-    e.preventDefault();
-    history.push('/ez-manage');
-  };
-  const handleVirtual = e => {
-    e.preventDefault();
-    history.push('/virtual-kitchen');
-  };
-
   return (
     <div class="mx-auto">
       <div class="mx-auto bg-gray-100 lg:pl-40">
@@ -75,11 +51,21 @@ const ProjectsContainer = () => {
             githubLink="https://github.com/cs-team-02/neighbor-fave"
             liveSite="https://neighbor-fave.herokuapp.com/"
           />
-          <div>
-            <button className="button-50" onClick={handleProjectClick}>
-              My Experience
-            </button>
-          </div>
+
+          <Projects
+            name="Pickle Pantry"
+            description="Modern Fullstack E-commerce application built with TypeScipt, Next.js, GoogleAuth, Stripe Payments, Zustand state managment, Prisma, Tailwind, Framer Motion"
+            image={kitchen}
+            githubLink="https://github.com/code-laborate1/commerce"
+            liveSite="https://brilliant-cocada-f2b3be.netlify.app/"
+          />
+          <Projects
+            name="Cohort Pair Generator"
+            description="Cohort Pair Generator is a powerful and user-friendly web tool that leverages complex algorithms to simplify the creation of random pairs or groups of students in a higher education setting. This application automates the process of generating optimal academic pairings while taking into account multiple constraints, including the ability to specify certain students who cannot work together. Its intuitive drag-and-drop interface also allows users to manually adjust the generated pairs as needed. Additionally, users can easily copy the generated pairs to the clipboard or export them as CSV files to integrate into other workflows or applications."
+            image={pairs}
+            githubLink="https://github.com/adam-marey/pairing-management-"
+            liveSite="https://pair-generator.netlify.app/"
+          />
           <Projects
             name="Personal Website"
             description="Personal website built with React and Tailwind CSS"
@@ -87,35 +73,6 @@ const ProjectsContainer = () => {
             githubLink="https://github.com/adam-marey/myPort"
             liveSite="https://www.adammarey.com/"
           />
-          <div>
-            <button className="button-50" onClick={handleWeb}>
-              My Experience
-            </button>
-          </div>
-          <Projects
-            name="EZ-Manage"
-            description="The project is a management system for keeping track of projects and clients. It is built using React for the frontend, Apollo Client for handling GraphQL requests, and Bootstrap for styling. The backend is built using Express and GraphQL for the database."
-            image={ezmanage}
-            githubLink="https://github.com/adam-marey/EZ-Manage"
-            liveSite="https://github.com/adam-marey/EZ-Manage"
-          />
-          <div>
-            <button className="button-50" onClick={handleManage}>
-              My Experience
-            </button>
-          </div>
-          <Projects
-            name="Virtual Kitchen"
-            description="Fullstack e-commerce application- Built with React, Redux, Node, Express, PostgreSQL, Sequelize"
-            image={kitchen}
-            githubLink="https://github.com/mudkip-masters/grace-shopper"
-            liveSite="https://grace-shopper-mudkip-masters.herokuapp.com/"
-          />
-          <div>
-            <button className="button-50" onClick={handleVirtual}>
-              My Experience
-            </button>
-          </div>
         </h1>
       </div>
     </div>

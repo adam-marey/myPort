@@ -7,16 +7,16 @@ const About = () => {
         About Me
       </h1>
       <p className="text-1xl text-gray-500 pt-4">
-        I am a Full-Stack Web Developer and current Computer Science student at
-        the Grand Canyon University. If I were to describe myself in one word,
-        it would be resourceful. Where there is a will there is a way and that
-        is what I always keep in mind when coding. I always try to think outside
-        the box and find creative ways to solve problems. If you asked me what
-        keeps me motivated to continuously learn, I would say challenge all the
-        way. I do the thing that scares me the most, proudly and patiently. What
-        I love about coding is that it keeps me on my toes. It is a combination
-        of frustration, happiness, uncharted territory, an amalgam of
-        information and so much more. I would not have it any other way.
+        Efficiently guiding students as a software development mentor and
+        computer science graduate, my passion lies in teaching web development
+        and empowering learners to achieve success. Through effective
+        communication and problem-solving abilities, I simplify intricate
+        concepts, ensuring accessibility and engagement for students at all
+        levels. With a comprehensive understanding of programming languages and
+        frameworks acquired during my academic and professional journey, I offer
+        streamlined guidance to aspiring developers. Ultimately, my objective is
+        to equip students with the confidence and skills needed to excel in the
+        dynamic and evolving realm of technology.
       </p>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageOfMe from '../../imgs/my.jpg';
+import ImageOfMe from '../../imgs/avatar.jpg';
 
 const IntroImage = () => {
   return (

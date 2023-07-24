@@ -8,7 +8,8 @@ function Skills() {
           <h1>Frontend Development</h1>
           <p>
             I can build scalable SPA and responsive Frontend applications using
-            HTML, CSS, React, React Hooks, Next.js along with Tailwind and SCSS
+            HTML, CSS, React, React Hooks, Next.js along with Tailwind and
+            Framer Motion
           </p>
         </div>
 
@@ -16,7 +17,7 @@ function Skills() {
           <h1>Backend Development</h1>
           <p>
             Handle database, server, api using Express, Node, PostgreSQL,
-            Sequelize
+            Sequelize, Prisma
           </p>
         </div>
 
@@ -45,8 +46,8 @@ function Skills() {
       </div>
       <div class="row2-container">
         <div class="box orange">
-          <h1>Familiarity</h1>
-          <p>python, Java, React Native</p>
+          <h1>Knowledgeable</h1>
+          <p>C#, Python, Java, React Native</p>
         </div>
       </div>
     </div>
